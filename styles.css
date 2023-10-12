@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "San Francisco";
+    src: url("/Fonts/SF-Pro-Text-Light.otf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "San Francisco";
+    src: url("/Fonts/SF-Pro-Display-Regular.otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "San Francisco";
+    src: url("/Fonts/SF-Pro-Text-Semibold.otf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "San Francisco";
+    src: url("/Fonts/SF-Pro-Text-Bold.otf");
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title-context {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.16667;
+    margin: 4rem 0 0 1.5rem;
+    font-family: "San Francisco";
+}
+
+.title-context span {
+    color: #6e6e73;
+}
+
+.container {
+    display: flex;
+    overflow-x: auto; /* Creamos un div scrollable de forma horizontal */
+    scrollbar-width: none; /* Escondemos la scrollbar en Firefox */
+    padding: 1.5rem 0; 
+}
+
+.grid::-webkit-scrollbar {
+    display: none; /* Escondemos la scrollbar en Chrome, Safari y Edge */
+}
+
+.card {
+    position: relative; /* Esta posición para poder posicionar el texto de la clase "body" */
+    flex: 0 0 309px; /* flex grow 0 para que todas ocupen el mismo espacio, flex-shrink 0 para que no se encojan y flex-basis 309px de ancho. */
+    height: 450px;
+    overflow: hidden; /* Para poder ver el borde redondeado */
+    margin-left: 1.5rem;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.image {
+    width: 100%;
+}
+
+.body {
+    position: absolute;
+    top: 0;
+    padding: 28px;
+    font-family: "San Francisco";
+    font-weight: 600;
+}
+
+.title {
+    font-size: 12px;
+    margin-bottom: 1rem;
+}
+
+.link {
+    font-size: 21px;
+}
+
+.text {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.black-text {
+    color: black;
+}
+
+.white-text {
+    color: white;
+}
