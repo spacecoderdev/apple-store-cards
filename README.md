@@ -6,7 +6,7 @@ Este proyecto de HTML y CSS tiene como objetivo recrear las cards desarrolladas 
 - San Francisco Font: https://developer.apple.com/fonts/
 ## 📸 Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![33-readme-image_Mesa de trabajo 1](https://github.com/spacecoderdev/apple-store-cards/assets/146677344/2404a0e0-353f-4f27-97cd-e40955dd355b)
 
 
 ## ✍️ Author
